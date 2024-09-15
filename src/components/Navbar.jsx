@@ -9,7 +9,6 @@ const Navbar = () => (
     <Link to="/" style={{ display: "flex", alignItems: "center" }}>
       <img src={logo} alt="logo" height={45} />
     </Link>
-    <h1 style={{color:"red"}}>VEDIO STREAMING </h1>
     <SearchBar />
   </Stack>
 );
